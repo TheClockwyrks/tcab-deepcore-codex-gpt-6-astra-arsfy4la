@@ -1,0 +1,13 @@
+/* Keep the page's viewport sizing authoritative when the engine pins an
+   intrinsic-size canvas at DPR 1. The engine still owns its backing store,
+   aspect-preserving fit, input mapping, and device-pixel-ratio transform. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: #0c171f;
+}
+
+html,
+body {
+  background: #0c171f;
+}
